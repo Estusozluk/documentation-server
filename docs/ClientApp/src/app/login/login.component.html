@@ -1,0 +1,22 @@
+
+<fieldset id="loginfieldset">
+    <legend>EstuDocs</legend>
+
+    <div id="datafields">
+        <div>
+            <span class="label">Username:</span>
+            <input class="form-control" #username type="text">
+        </div>
+        
+        <div>
+            <span class="label">Password:</span>
+            <input class="form-control" #password type="password">
+        </div>
+    </div>
+
+    <div>
+        <button style="float:right;" class="btn btn-primary" (click)="login(username.value, password.value)" clickable>Sign In</button>
+    </div>
+</fieldset>
+
+

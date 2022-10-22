@@ -1,0 +1,9 @@
+::ng-deep #homecss *{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+::ng-deep #homecss{
+    margin-top: 2%;
+    margin-left: 2%;
+}    

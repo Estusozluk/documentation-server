@@ -1,0 +1,25 @@
+::ng-deep #loginfieldset{
+    margin: auto;
+    max-width: 300px;
+}
+
+::ng-deep #datafields{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+::ng-deep #datafields > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1%;
+}
+
+::ng-deep #datafields .form-control{
+    width: unset;
+}
+
+::ng-deep #datafields .label{
+    padding-top: 5px;
+}
